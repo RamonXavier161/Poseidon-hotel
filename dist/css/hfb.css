@@ -1,0 +1,241 @@
+.production [class*=sidebar-dark-] 
+{
+    background-color: #343a40 !important;
+}
+
+.homologation [class*=sidebar-dark-] 
+{
+    background-color: #343a40 !important;
+}
+
+.development [class*=sidebar-dark-] 
+{
+    background-color: #343a40 !important;
+}
+
+textarea {
+    margin: 15px 0;
+    width: 50%;
+    height: 50px;
+}
+
+.rcbfocus:focus{
+    background-color: #e8f0fe;
+    transition: background-color 0.7s ease;
+}
+
+
+/* Pagina HOME */
+.home-content-wrapper
+{
+    height: 88vh !important;
+}
+
+.background-farmacia-container
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.background-farmacia-img
+{
+    width: inherit;
+    height: inherit;
+    opacity: 0.7;
+}
+.badge-orange {
+    color: #FFF;
+    background-color: #fd7e14;
+}
+
+.modal-header.modal-success {
+    background-color: #28a745;
+}
+
+.modal-header.modal-success> * {
+    color: white;
+}
+
+.custom-badge {
+    font-size: 100% !important;
+}
+
+.atendimento-actions-container
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.atendimento-actions-button
+{
+    height: 90px;
+    width: 135px;
+}
+
+.painel-acolhimento-background{
+    background-image: url("dist/img/emergencia.jpg");
+}
+
+.tempo-espera {
+    font-family: monospace;
+    font-weight: bold;
+    /* color: black; */
+}
+.inform {
+    white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+
+}
+.tooltip {
+    white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container .tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 250px; 
+    white-space: normal; 
+    word-wrap: break-word; 
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Admin LTE 3 / Boostrap Buttons */
+/* aplica o mesmo estilo cinza e cursor not-allowed no hover */
+.btn-outline-danger.disabled,
+.btn-outline-warning.disabled,
+.btn-outline-success.disabled,
+.btn-outline-danger.disabled:hover,
+.btn-outline-warning.disabled:hover,
+.btn-outline-success.disabled:hover {
+  color: #000 !important;
+  border-color: #000 !important;
+  background-color: transparent !important;
+  cursor: not-allowed;
+}
+
+/* Opcional: impede mesmo o hover “brilhar” via box-shadow */
+.btn-outline-danger.disabled:hover,
+.btn-outline-warning.disabled:hover,
+.btn-outline-success.disabled:hover {
+  box-shadow: none !important;
+}
+
+/* Caixa para o marcador */
+.radio-alergia {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s, background-color 0.2s;
+  vertical-align: middle;
+}
+
+/* Marcador interno */
+.radio-alergia::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #28a745;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.125s ease-in-out;
+}
+
+/* Estado marcado */
+.radio-alergia:checked::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Estado foco */
+.radio-alergia:focus {
+  border-color: #28a745;
+}
+
+/* Estado desabilitado */
+.radio-alergia:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+/* Label logo depois */
+.radio-alergia + label {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.radio-alergia:focus + label {
+  color: #28a745;
+}
+html {
+  scroll-behavior: smooth;
+}
+.card a:hover {
+  text-decoration: underline;
+}
+.tr-selecionada {
+	background-color: #d1e7dd; /* verde claro, você pode mudar para a cor que quiser */
+}
+
+/* Remove sublinhado do link */
+a.d-block.text-dark.fw-bold {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+/* Cor de fundo ao passar o mouse sobre a linha do grupo */
+a.d-block.text-dark.fw-bold:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.linha-ativa td {
+  background-color: #fff3cd !important; /* amarelinho estilo "warning" */
+}
+
+/* Mantém a sidebar ocupando toda a altura */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Menu com scroll, abaixo do user-panel */
+.sidebar-menu-scrollable {
+    flex: 1;              /* ocupa o espaço restante */
+    overflow-y: auto;     /* scroll apenas no menu */
+    overflow-x: hidden;
+}

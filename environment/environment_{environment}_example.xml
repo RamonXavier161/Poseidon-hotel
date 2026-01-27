@@ -1,0 +1,13 @@
+<environment>
+    <DATABASE>alterar_para_banco_de_prod</DATABASE> 
+    <UID>alterar_para_usuario_de_prod</UID>
+    <password>alterar_para_senha_do_banco_de_prod</password>
+    <server>alterar_para_ip_do_servidor_de_prod</server>
+    <NodeJS>
+        <WebSocketUri>ws://<!--ip_maquina_nome-->:<!--porta que direciona para o node--></WebSocketUri>
+        <HttpEndpoint>http://<!--ip_maquina_nome-->:<!--porta que direciona para o node--></HttpEndpoint>
+    </NodeJS>
+    <Python>
+        <PyClientAgent>http://<!--ip_maquina_nome-->:<!--porta que direciona para o client python--></PyClientAgent>
+    </Python>
+</environment>

@@ -1,0 +1,6 @@
+<environment> <!-- Esse enviroment precisa ser alterado localmente para apontar para o banco de dados na máquina do desenvolvedor-->
+    <DATABASE>hotel</DATABASE> 
+    <UID>root</UID>
+    <password>adm123</password>
+    <server>localhost</server>
+</environment>
