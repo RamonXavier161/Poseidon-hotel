@@ -19,11 +19,9 @@
           <h1>Logar</h1>
           <form action="login.asp" method="post">
             <div class="text-field">
-              <label for="Usuario">Usuário</label>
               <input type="texto" name="Usuario" placeholder="usuário" />
             </div>
             <div class="text-field">
-              <label for="senha">senha</label>
               <input type="password" name="senha" placeholder="senha" />
             </div>
             <div class="text">
@@ -41,3 +39,5 @@
 
   </body>
 </html>
+
+

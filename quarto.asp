@@ -52,7 +52,7 @@
 						<div class="col-12">
 							<div class="card card-success">
 								<div class="card-header" style="background-color: #18929d;">
-									<h3 class="card-title">Quartos</h3>
+									<h3 class="card-title">QUARTOS</h3>
 								</div>
 								<!-- /.card-header -->
 								<div class="card-body">

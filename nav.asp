@@ -9,7 +9,7 @@
     <li><a href="#footer_Direitoautoral">CONTATO</a></li>
     <li><a href="logout.asp">SAIR</a></li>
     <%if session("perfil") <> "1" then%>
-      <li><a href="home-interno.asp">Funcionário</a></li>
+      <li><a href="home-interno.asp">FUNCIONARIO</a></li>
     <%end if%>
   </ul>
 </nav>

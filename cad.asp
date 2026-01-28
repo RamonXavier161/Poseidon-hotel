@@ -19,22 +19,17 @@
           <h1>Cadastro</h1>
           <form action="cad-grava.asp" method="post">
             <div class="text-field">
-              <label for="Usuario">NOME</label>
               <input type="texto" name="nome" placeholder="NOME" />
             </div>
             <div class="text-field">
-              <label for="CPF">CPF</label>
               <input id="cpf" type="text" class="rcbfocus form-control" placeholder="XXX.XXX.XXX-XX" oninput="formatarCPF(this)" name="cpf" required/>
             </div>
             <div class="text-field">
-              <label for="email">E-MAIL</label>
               <input type="email" name="email" placeholder="e-mail" />
             </div>
             <div class="text-field">
-              <label for="senha">SENHA</label>
               <input type="password" name="senha" placeholder="senha" />
             </div>
-
             <div class="text">
               <div class="botoes">
                 <button type="submit" class="ss">Cadastrar</button>
