@@ -91,7 +91,7 @@ CREATE DATABASE hotel;
 No arquivo de conexão (ex: `db.asp`), configure:
 
 ```asp
-conn.Open "Driver={MySQL ODBC 8.0 ANSI Driver};Server=localhost;Database=hotel;User=root;Password=SUA_SENHA;"
+conn.Open "Driver={MySQL ODBC 8.4 ANSI Driver};Server=localhost;Database=hotel;User=root;Password=SUA_SENHA;"
 ```
 
 Substitua:
