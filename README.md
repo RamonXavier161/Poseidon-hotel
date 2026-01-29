@@ -82,7 +82,7 @@ CREATE DATABASE hotel;
 ```
 
 2. Execute os scripts SQL que estão no projeto
-   (O projeto já contém a estrutura das tabelas e inserts iniciais)
+   (O projeto já contém a estrutura das tabelas e inserts iniciais) Dentro da pasta DATABASE
 
 ---
 
