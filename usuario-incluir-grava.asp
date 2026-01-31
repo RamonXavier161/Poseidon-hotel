@@ -50,7 +50,7 @@
 		if rsquery.eof then
 
 			sqlstmt = "INSERT INTO usuarios (" & _
-			  "status, sexo, nome, cpf, email, placacar, telefone, etnia, data_nasc, perfil, endereco, " & _
+			  "statu, sexo, nome, cpf, email, placacar, telefone, etnia, data_nasc, perfil, endereco, " & _
 			  "numero, complemento, bairro, cidade, uf, cep, data_cadastro, hora_cadastro " & _
 			  
 			  ") VALUES (" & _

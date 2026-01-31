@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>POSEIDON</title>
     <link rel="stylesheet" href="dist/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   </head>
   <body>
+
     <div class="main-login">
       <div class="rigth-login">
         <div class="card-login">
-          <h1>Cadastro</h1>
+          <h1>Cadastrar</h1>
           <form action="cad-grava.asp" method="post">
             <div class="text-field">
               <input type="texto" name="nome" placeholder="NOME" />
@@ -39,7 +39,22 @@
         </div>
       </div>
     </div>
-    <script src="dist/js/script.js"></script>
-
+     <script src="dist/js/script.js"></script>
   </body>
-</html 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

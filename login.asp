@@ -21,7 +21,7 @@ pSenha = request.form("senha")
 	pSenha = replace(pSenha,"delete","")
 
 	sqlstmt = "select * from usuarios as U "
-	sqlstmt = sqlstmt & " where nome ='" & pUsuario & "' and senha='" & md5(pSenha) & "' and status='ATIVO'"
+	sqlstmt = sqlstmt & " where nome ='" & pUsuario & "' and senha='" & md5(pSenha) & "' and statu='ATIVO'"
 	'response.write sqlstmt
 	'response.write "<BR>" & md5(pSenha)
 	set rsquery = conn.execute(sqlstmt) 

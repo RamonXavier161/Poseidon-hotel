@@ -10,7 +10,7 @@ pagina = Request.ServerVariables("SCRIPT_NAME")
 pagina = Mid(pagina, InStrRev(pagina, "/") + 1)
 
 
-if session("nome") = "" AND pagina <> "login.asp" then 'VERIFICA SE USUÁRIO ESTÁ ATIVO
+if session("nome") = "" AND pagina <> "login.asp" AND pagina <> "cad-grava.asp" then 'VERIFICA SE USUÁRIO ESTÁ ATIVO
 		response.redirect "index.asp"
 end if
 

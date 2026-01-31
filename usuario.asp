@@ -74,7 +74,7 @@
 											
 											while not rsquery.eof 
 
-											if rsquery("status") = "ATIVO" then
+											if rsquery("statu") = "ATIVO" then
 											cor = "green"
 											statu = "INATIVO"
 											else
@@ -90,7 +90,7 @@
                                                 <td><%response.write rsquery("data_nasc")%></td>
 												<td>
 													<a href="usuario-alterar.asp?pid=<%response.write rsquery("idusuario")%>"><i class="fas fa-edit"></i></a>
-													<a href="usuario-alterar-alterado.asp?pid=<%response.write rsquery("idusuario")%>&status=<%response.write statu%>" style="color:<%response.write cor%>;"><i class="fas fa-circle"></i></a>
+													<a href="usuario-alterar-alterado.asp?pid=<%response.write rsquery("idusuario")%>&statu=<%response.write statu%>" style="color:<%response.write cor%>;"><i class="fas fa-circle"></i></a>
 												</td>
 											</tr>
 											<%

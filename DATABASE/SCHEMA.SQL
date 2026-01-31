@@ -39,6 +39,39 @@ CREATE TABLE `tipo_quarto` (
 
 
 
+CREATE TABLE `usuarios` (
+  `idusuario` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) DEFAULT NULL,
+  `cpf` varchar(14) DEFAULT NULL,
+  `email` varchar(150) DEFAULT NULL,
+  `telefone` varchar(20) DEFAULT NULL,
+  `cep` varchar(9) DEFAULT NULL,
+  `uf` varchar(2) DEFAULT NULL,
+  `cidade` varchar(45) DEFAULT NULL,
+  `bairro` varchar(50) DEFAULT NULL,
+  `endereco` varchar(255) DEFAULT NULL,
+  `numero` varchar(10) DEFAULT NULL,
+  `complemento` varchar(255) DEFAULT NULL,
+  `senha` varchar(255) DEFAULT NULL,
+  `data_cadastro` varchar(10) DEFAULT NULL,
+  `hora_cadastro` varchar(10) DEFAULT NULL,
+  `usuario_cadastro` int DEFAULT NULL,
+  `placacar` varchar(20) DEFAULT NULL,
+  `etnia` varchar(10) DEFAULT NULL,
+  `data_nasc` varchar(10) DEFAULT NULL,
+  `sexo` varchar(10) DEFAULT NULL,
+  `perfil` int DEFAULT NULL,
+  `status` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`idusuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+INSERT INTO usuarios (nome, cpf, email, senha, data_cadastro, hora_cadastro, perfil, statu) VALUES 
+('ADMINISTRADOR','111.111.111-11','ADM@GMAIL.COM','202cb962ac59075b964b07152d234b70','26/01/2026','20:20',2,'ATIVO');
+
+
+
 INSERT INTO tipo_quarto (descricao, valor_diaria, capacidade) VALUES
 ('Standard', 250.00, 2),
 ('Superior', 350.00, 2),
