@@ -1,7 +1,7 @@
 
-# 🏨 Sistema de Gestão Hoteleira
+#  Sistema de Gestão Hoteleira
 
-## 📄 Descrição do Projeto
+##  Descrição do Projeto
 
 Este projeto é um **sistema web completo para gestão de hotel**, desenvolvido para organizar e controlar os principais processos internos da operação hoteleira.
 
@@ -11,7 +11,7 @@ O sistema foi projetado para ser **funcional, organizado e escalável**, podendo
 
 ---
 
-## ✨ Funcionalidades Principais
+##  Funcionalidades Principais
 
 ✔ Cadastro e login de usuários
 ✔ Controle de perfis e permissões de acesso
@@ -36,11 +36,11 @@ O sistema foi projetado para ser **funcional, organizado e escalável**, podendo
 
 ---
 
-## 📂 Estrutura Geral do Sistema
+##  Estrutura Geral do Sistema
 
 O projeto é dividido em duas partes principais:
 
-### 🔹 Aplicação ASP (Sistema Principal)
+###  Aplicação ASP (Sistema Principal)
 
 Responsável por:
 
@@ -49,7 +49,7 @@ Responsável por:
 * Cadastro de dados
 * Comunicação com o banco MySQL
 
-### 🔹 Servidor Node.js (Imagens)
+###  Servidor Node.js (Imagens)
 
 Responsável por:
 
@@ -59,9 +59,9 @@ Responsável por:
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
-### ✅ Pré-requisitos
+###  Pré-requisitos
 
 Antes de rodar o sistema, você precisa ter instalado:
 
@@ -73,7 +73,7 @@ Antes de rodar o sistema, você precisa ter instalado:
 
 ---
 
-### 🗄️ 1. Configuração do Banco de Dados
+###  1. Configuração do Banco de Dados
 
 1. Crie um banco de dados no MySQL:
 
@@ -86,7 +86,7 @@ CREATE DATABASE hotel;
 
 ---
 
-### 🔌 2. Configurar Conexão com o Banco (ASP)
+###  2. Configurar Conexão com o Banco (ASP)
 
 No arquivo de conexão (ex: `db.asp`), configure:
 
@@ -101,7 +101,7 @@ Substitua:
 
 ---
 
-### 🌐 3. Configurar o IIS
+###  3. Configurar o IIS
 
 1. Abra o **Gerenciador do IIS**
 2. Crie um **novo site** ou aplicativo apontando para a pasta do projeto
@@ -113,7 +113,7 @@ Substitua:
 
 ---
 
-### 🟢 4. Iniciar o Servidor Node.js
+### 4. Iniciar o Servidor Node.js
 
 1. Vá até a pasta onde está o `server.js`
 
@@ -133,11 +133,11 @@ npm install
 node server.js
 ```
 
-⚠ O Node.js deve permanecer rodando para que o upload de imagens funcione.
+ O Node.js deve permanecer rodando para que o upload de imagens funcione.
 
 ---
 
-### 🖼️ 5. Pasta de Upload de Imagens
+###  5. Pasta de Upload de Imagens
 
 Verifique no código do Node:
 
@@ -147,7 +147,7 @@ Verifique no código do Node:
 
 ---
 
-## 🔄 Como Funciona o Upload de Imagens
+## Como Funciona o Upload de Imagens
 
 1. O usuário envia a imagem pelo sistema ASP
 2. O ASP envia a imagem para o servidor Node.js
@@ -157,10 +157,10 @@ Verifique no código do Node:
 
 ---
 
-## 📌 Status do Projeto
+## Status do Projeto
 
-✅ Estrutura principal finalizada
-🔄 Melhorias futuras podem incluir:
+Estrutura principal finalizada
+Melhorias futuras podem incluir:
 
 * Sistema de reservas
 * Controle de hóspedes
@@ -169,8 +169,8 @@ Verifique no código do Node:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Ramon Xavier**
-🔗 [www.linkedin.com/in/ramon-xavier-dev](http://www.linkedin.com/in/ramon-xavier-dev)
+ [www.linkedin.com/in/ramon-xavier-dev](http://www.linkedin.com/in/ramon-xavier-dev)
 
