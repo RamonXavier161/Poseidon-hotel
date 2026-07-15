@@ -24,7 +24,7 @@ O sistema foi projetado para ser **funcional, organizado e escalável**, podendo
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Categoria               | Tecnologia                          | Uso no Projeto                                                               |
 | ----------------------- | ----------------------------------- | ---------------------------------------------------------------------------- |
